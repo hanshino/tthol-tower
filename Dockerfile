@@ -25,4 +25,4 @@ COPY --chown=node:node . /usr/src/app
 
 CMD [ "dumb-init", "yarn", "start" ]
 
-EXPOSE 5000
+EXPOSE 8080

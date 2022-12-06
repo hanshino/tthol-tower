@@ -9,7 +9,7 @@ app.post("/tthol/:account/login", bodyParser, tthol.login);
 app.delete("/tthol/:account/logout", tthol.logout);
 app.post("/tthol/:account/record", bodyParser, tthol.record);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 app.listen(port, function () {
   console.log("開工了！！目前在port " + port);
 });
